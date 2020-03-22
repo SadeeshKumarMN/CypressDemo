@@ -1,0 +1,19 @@
+{
+  "name": "joinpiggy-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress": "cypress open",
+    "test_cloud": "cypress run --record --key db766575-a061-41e0-9dfc-67a62dd0b39a",
+    "test_local":"cypress run"
+  },
+  
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^4.2.0"
+  }
+}

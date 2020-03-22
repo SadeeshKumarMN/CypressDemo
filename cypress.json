@@ -1,0 +1,12 @@
+{
+  "watchForFileChanges": false,
+  "pageLoadTimeout": 80000,
+  "env": {
+    "user": {
+      "invalidemail": "test@gmail.com",
+      "validemail": "sadeeshkumarmn@gmail.com",
+      "validpassword": "joiningpiggy"
+    }
+  },
+  "projectId": "6i1fuw"
+}
