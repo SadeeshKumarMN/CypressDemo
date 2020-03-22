@@ -24,7 +24,7 @@ note: Before executing this command, refer the given <a href="https://docs.cypre
 2. Configured to execute the test suite in both interactive/non-interactively.
 
 ## Usecases: 
-![Piggy Logo](/demo/piggy-logo.png)
+![Piggy Logo](/demo/piggy_logo.gif)
 Website under exploration: <a href="https://www.joinpiggy.com/">Piggy! Save Money with Automatic Free Coupon Apps</a>
 1. Verify the key elements(Logo, Header, Title, Navigation Menu Items, Add to Chrome Buttons ) in the Home Page are visible
 2. Verify the certain buttons opens the pages in a new tab
