@@ -7,7 +7,7 @@ Exploring the key features of <a href="https://www.cypress.io/">Cypress.io</a>, 
 ![Cypress Logo](/demo/cypress-logo.png)
 ## Why cypress is *different*?
 1. It’s a **JavaScript-only** tool. This is very natural for frontend developers, as frontend developers write only in JavaScript.
-2. **Fast**- The test code itself runs in the browser, just like the app code itself. Once the test code runs in the browser, it can do automation things — like clicking, finding elements etc— much faster than if they run out of the process of the browser.
+2. **Fast** - The test code itself runs in the browser, just like the app code itself. Once the test code runs in the browser, it can do automation things — like clicking, finding elements etc— much faster than if they run out of the process of the browser.
 3. **All in One Tool** - No need to install different tools and libraries.
 4. This tool is **Chrome-only**.
 
@@ -39,5 +39,5 @@ Website under exploration: <a href="https://www.joinpiggy.com/">Piggy! Save Mone
 ## Test Execution Report:
 Here is the <a href="https://dashboard.cypress.io/projects/6i1fuw/runs/1/test-results">**Detailed Test Execution Report of these use cases from Cypress Dashboard Service**</a>
 
-note: The execution is really fast, takes only a few seconds for its execution. The generated report will be stored in cloud using <a href="https://docs.cypress.io/faq/questions/dashboard-faq.html#article">Dashboard service, a robust test management</a>.
+Note: The execution is really fast, takes only a few seconds for its execution. The generated report will be stored in cloud using their <a href="https://docs.cypress.io/faq/questions/dashboard-faq.html#article">robust test management service-Dashboard</a>.
 ![Execution Report](/demo/Execution_Result.png)
