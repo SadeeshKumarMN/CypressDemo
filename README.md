@@ -7,18 +7,21 @@ Exploring the key features of <a href="https://www.cypress.io/">Cypress.io</a>, 
 ![Cypress Logo](/demo/cypress-logo.png)
 ## Why cypress is *different*?
 1. It’s a **JavaScript-only** tool. This is very natural for frontend developers, as frontend developers write only in JavaScript.
-2. **Fast**- The test code itself runs in the browser, just like the app code itself. Once the test code runs in the browser, it can do automation things — like clicking, etc— much faster than if they run out of the process of the browser.
+2. **Fast**- The test code itself runs in the browser, just like the app code itself. Once the test code runs in the browser, it can do automation things — like clicking, finding elements etc— much faster than if they run out of the process of the browser.
 3. **All in One Tool** - No need to install different tools and libraries.
 4. This tool is **Chrome-only**.
 
 ## Steps to use this project:
-1. Download/Clone this repo
-2. **npm install**: Install dependencies by running this command in terminal (from inside your app directory where package.json is located)
-3. **npm run cypress**: Similarly, to execute the tests with Cypress Test Runner UI(an interactive runner that allows you to see commands as they execute while also viewing the application under test)
-3. **npm run test_local**: To execute the tests in CLI which execute the test cases in headless mode(note: Execution results will be saved in video format under project's video folder)
-4. **npm run test_cloud**: To view the test results in cloud using <a href="https://dashboard.cypress.io/">Cypress Dashboard</a>
-
-note: Before executing this final command, refer this given <a href="https://docs.cypress.io/faq/questions/dashboard-faq.html#How-do-I-record-my-tests"> steps </a> to get your project id and record key which need to be updated in cypress.json & package.json accordingly.
+1. **Installation Prerequisite**: Supports from Node.js 8. For more details, please refer <a href="https://docs.cypress.io/guides/getting-started/installing-cypress.html#System-requirements"> here!</a>
+2. Download/Clone this repo
+3. **npm install**: Install dependencies by running this command in terminal (from inside your app directory where package.json is located)
+>  It might take a little while for this installation to complete, because besides the Cypress code, it’s also downloading a special version of Chrome that it will use to run the app and the tests.
+4. **npm run cypress**: Similarly, to execute the tests with Cypress Test Runner UI
+> Cypress Test Runner- An interactive runner that allows you to see commands as they execute while also viewing the application under test
+5. **npm run test_local**: To execute the tests in CLI which execute the test cases in headless mode 
+> Note: Execution results will be saved in video format under project's video folder
+6. **npm run test_cloud**: To view the test results in cloud using <a href="https://dashboard.cypress.io/">Cypress Dashboard</a>
+> Note: Before executing this final command, refer this given <a href="https://docs.cypress.io/faq/questions/dashboard-faq.html#How-do-I-record-my-tests"> steps </a> to get your project id and record key which need to be updated in cypress.json & package.json accordingly.
 
 ## About this Demo Project:
 1. Designed a test suite with **Page object Design Pattern(POM)**
