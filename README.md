@@ -18,7 +18,7 @@ Exploring the key features of <a href="https://www.cypress.io/">Cypress.io</a>, 
 3. **npm run test_local**: To execute the tests in CLI which execute the test cases in headless mode(note: Execution results will be saved in video format under project's video folder)
 4. **npm run test_cloud**: To view the test results in cloud using <a href="https://dashboard.cypress.io/">Cypress Dashboard</a>
 
-note: Before executing this final command, refer the given <a href="https://docs.cypress.io/faq/questions/dashboard-faq.html#How-do-I-record-my-tests"> steps </a> here to get your project id and record key which need to be updated in cypress.json & package.json accordingly.
+note: Before executing this final command, refer this given <a href="https://docs.cypress.io/faq/questions/dashboard-faq.html#How-do-I-record-my-tests"> steps </a> to get your project id and record key which need to be updated in cypress.json & package.json accordingly.
 
 ## About this Demo Project:
 1. Designed a test suite with **Page object Design Pattern(POM)**
@@ -28,12 +28,13 @@ note: Before executing this final command, refer the given <a href="https://docs
 ![Piggy Logo](/demo/piggy_logo.gif)
 
 Website under exploration: <a href="https://www.joinpiggy.com/">Piggy! Save Money with Automatic Free Coupon Apps</a>
-1. Verify the key elements(Logo, Header, Title, Navigation Menu Items, Add to Chrome Buttons ) in the Home Page are visible
+1. Verify the key elements(Logo, Header, Title, Navigation Menu Items, Add to Chrome Buttons ) are visible in the Home Page 
 2. Verify the certain buttons opens the pages in a new tab
 3. Verify User Registration Process from UI
 4. Verify Login functionality with service request(POST)
 
 ## Test Execution Report:
 Here is the <a href="https://dashboard.cypress.io/projects/6i1fuw/runs/1/test-results">**Detailed Test Execution Report of these use cases from Cypress Dashboard Service**</a>
+
 note: The execution is really fast, takes only a few seconds for its execution. The generated report will be stored in cloud using <a href="https://docs.cypress.io/faq/questions/dashboard-faq.html#article">Dashboard service, a robust test management</a>.
 ![Execution Report](/demo/Execution_Result.png)
